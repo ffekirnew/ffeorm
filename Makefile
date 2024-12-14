@@ -1,5 +1,9 @@
 .phony: format lint test test-coverage build upload
 
+run:
+	@echo "Running main..."
+	@python src/main.py
+
 format:
 	@echo "Make: Running formatters..."
 	@isort src
